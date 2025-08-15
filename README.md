@@ -1,6 +1,6 @@
 # 收银-python
-**More language:** [English](https://github.com/ChenTianyi2025/cashier/edit/main/README.en.md)
-**快速跳转：** [使用说明](https://github.com/ChenTianyi2025/cashier/edit/main/README.md#)
+**More language:** [English](https://github.com/ChenTianyi2025/cashier/edit/main/README.en.md)      
+**快速跳转至：** [使用说明](https://github.com/ChenTianyi2025/cashier/edit/main/README.md#使用说明)
 
 #### 介绍
 cashier翻译为收银.该项目利用python语言，编写了一个模拟收银系统的python程序。
