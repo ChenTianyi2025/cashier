@@ -106,7 +106,7 @@ entry.pack(pady=10)  # 使用 pack() 布局管理器，添加一些垂直间距
 entry.bind('<Return>', lambda event: button_click_thingok())  # 绑定回车键事件
 
 # 创建一个按钮，并将其添加到窗口中
-button_thingok = tk.Button(root, text="录入一个商品", command=button_click_thingok)  # 创建一个录入商品按钮
+button_thingok = tk.Button(root, text="加入商品（Enter）", command=button_click_thingok)  # 创建一个录入商品按钮
 button_thingok.pack(pady=10)  # 使用 pack() 布局管理器，添加一些垂直间距
 button_finish = tk.Button(root, text="查询总金额", command=button_click_finishi)  # 创建一个完成按钮
 button_finish.pack(pady=10)  # 使用 pack() 布局管理器，添加一些垂直间距
