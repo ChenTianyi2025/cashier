@@ -1,0 +1,10 @@
+该文件夹的功能：为程序提供示例，可以作为参考，但仍需根据实际情况调整。即使使用了该示例文件，仍需做以下调整：
+    右键程序，用记事本（或本地编辑器）打开，修改两项内容：
+        ① 将'F:\cty.txt'改为电脑中的另一个txt文件的地址（注意带引号）。
+        ② 将'F:\cty.xls'改为电脑中的另一个xls文件的地址（注意带引号）。
+
+
+The function of this folder is to provide examples for the program as a reference, but it still needs to be adjusted according to the actual situation. Even if the example file is used, the following adjustments still need to be made:
+    Right click on the program, open it with Notepad (or local editor), and modify two items:
+        ① Change 'F: \ cdy. txt' to the address of another txt file on the computer (note the quotation marks).
+        ② Change 'F: \ cdy. xls' to the address of another xls file on the computer (note enclosed in quotation marks).
