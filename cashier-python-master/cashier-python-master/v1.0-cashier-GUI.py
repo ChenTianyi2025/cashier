@@ -13,14 +13,16 @@ thingname_list = []
 thingname = 0
 thingmoney_list = []
 thingmany = 0
+path_xls = r'F:\cty.xls'
+path_txt = r'F:\cty.txt'
 
 try:
-    fp = open(r'F:\cty.txt', 'a+')
+    fp = open(path_txt, 'a+')
 except IOError as e:
     print(f"无法打开文件：{e}")
 
 try:
-    thingxls = xlrd.open_workbook('F:\cty.xls')
+    thingxls = xlrd.open_workbook(path_xls)
 except IOError as e:
     print(f"无法打开Excel文件：{e}")
 
