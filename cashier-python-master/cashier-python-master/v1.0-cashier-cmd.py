@@ -2,7 +2,7 @@ import datetime
 import xlrd
 
 fp = open(r'F:\cty.txt','a+')
-thingxls = xlrd.open_workbook('F:\cty.xls') #excel
+thingxls = xlrd.open_workbook(r'F:\cty.xls') #excel
 allmoney = 0
 ifhave_thingnum = 1
 close_num = "kl" #kl
@@ -39,14 +39,14 @@ while True:
                     thingmany += 1
                     print(onemoney)
             if ifhave_thingnum == 2:
-                print('time:'+datetime.datetime.now().strftime('%y-%m-%d %H:%M')+"  thingnum:"+thingnum,end="\n\n")
+                print(datetime.datetime.now().strftime('%y-%m-%d %H:%M')+"  编号:"+thingnum,end="\n\n")
             else:
-                print("NO this 没有"+thingnum+"商品",end="\n\n")
+                print("没有"+thingnum+"商品",end="\n\n")
 
 print('Time:'+datetime.datetime.now().strftime('%y-%m-%d %H:%M')+"  ThingNum:",end='',file=fp)
 for item in thingnum_list:
     print(item,end="  ",file=fp)
-print("Allmaney is:",allmoney,file=fp)
+print("Total:",allmoney,file=fp)
 
 fp.close()
 
@@ -54,4 +54,4 @@ fp.close()
 for i in range(thingmany):
     print(thingname_list[i],thingmoney_list[i])
 print("-----------------------------")
-print("Allmaney is:",allmoney)
+print("总价：",allmoney)
